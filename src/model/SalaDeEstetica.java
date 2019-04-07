@@ -35,6 +35,10 @@ public class SalaDeEstetica
 		}
 		return "no se pudo agregar";	
 	}
+	public int calcularPromedio() 
+	{
+		return 0;
+	}
 	public String agregarServicioE1(TipoDeServicio t) 
 	{
 		empleado1.agregarServicio(t);
